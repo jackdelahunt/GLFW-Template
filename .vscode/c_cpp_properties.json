@@ -5,7 +5,7 @@
             "includePath": [
                 "${default}",
                 "vendor/glfw/include",
-                "vendor/glew/include"
+                "vendor/glad/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/clang",
