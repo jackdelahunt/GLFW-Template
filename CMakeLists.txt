@@ -3,12 +3,12 @@ project(template)
 
 find_package(OpenGL REQUIRED)
 
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_C_STANDARD 11)
 
 set(GLFW_PATH vendor/glfw)
 set(GLAD_PATH vendor/glad)
 
-add_executable(${PROJECT_NAME} main.cpp)
+add_executable(${PROJECT_NAME} main.c endor/glad/src/glad.c)
 
 add_subdirectory(${GLFW_PATH})
 
