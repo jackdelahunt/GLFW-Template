@@ -11,3 +11,14 @@ Build and run
 ```bash
 make build && make run
 ```
+
+## Dependinces
+Debian 
+```
+sudo apt install xorg-dev
+```
+
+Red Hat
+```
+sudo dnf install libXcursor-devel libXi-devel libXinerama-devel libXrandr-devel
+```
